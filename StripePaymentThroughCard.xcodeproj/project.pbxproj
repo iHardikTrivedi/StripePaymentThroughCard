@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA755B0A1C2AE4E800101531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA755B091C2AE4E800101531 /* main.m */; };
+		CA755B131C2AE4E800101531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA755B111C2AE4E800101531 /* Main.storyboard */; };
+		CA755B151C2AE4E800101531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA755B141C2AE4E800101531 /* Assets.xcassets */; };
+		CA755B181C2AE4E800101531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA755B161C2AE4E800101531 /* LaunchScreen.storyboard */; };
+		CA755B231C2AE4E800101531 /* StripePaymentThroughCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA755B221C2AE4E800101531 /* StripePaymentThroughCardTests.m */; };
+		CA755B2E1C2AE4E800101531 /* StripePaymentThroughCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA755B2D1C2AE4E800101531 /* StripePaymentThroughCardUITests.m */; };
+		CA755B441C2AE57F00101531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA755B3D1C2AE57F00101531 /* AppDelegate.m */; };
+		CA755B451C2AE57F00101531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA755B431C2AE57F00101531 /* ViewController.m */; };
+		CA755B481C2AE5AB00101531 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA755B471C2AE5AB00101531 /* PaymentViewController.m */; };
+		CA755B4E1C2AE7C100101531 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA755B4D1C2AE7C100101531 /* Stripe.framework */; };
+		CA755B521C2AE8CF00101531 /* imgPayNow.png in Resources */ = {isa = PBXBuildFile; fileRef = CA755B511C2AE8CF00101531 /* imgPayNow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA755B1F1C2AE4E800101531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA755AFD1C2AE4E800101531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA755B041C2AE4E800101531;
+			remoteInfo = StripePaymentThroughCard;
+		};
+		CA755B2A1C2AE4E800101531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA755AFD1C2AE4E800101531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA755B041C2AE4E800101531;
+			remoteInfo = StripePaymentThroughCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA755B051C2AE4E800101531 /* StripePaymentThroughCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripePaymentThroughCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA755B091C2AE4E800101531 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA755B121C2AE4E800101531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA755B141C2AE4E800101531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA755B171C2AE4E800101531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA755B191C2AE4E800101531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA755B1E1C2AE4E800101531 /* StripePaymentThroughCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StripePaymentThroughCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA755B221C2AE4E800101531 /* StripePaymentThroughCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StripePaymentThroughCardTests.m; sourceTree = "<group>"; };
+		CA755B241C2AE4E800101531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA755B291C2AE4E800101531 /* StripePaymentThroughCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StripePaymentThroughCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA755B2D1C2AE4E800101531 /* StripePaymentThroughCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StripePaymentThroughCardUITests.m; sourceTree = "<group>"; };
+		CA755B2F1C2AE4E800101531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA755B3C1C2AE57F00101531 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA755B3D1C2AE57F00101531 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA755B421C2AE57F00101531 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA755B431C2AE57F00101531 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA755B461C2AE5AB00101531 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		CA755B471C2AE5AB00101531 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		CA755B4C1C2AE61A00101531 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		CA755B4D1C2AE7C100101531 /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Stripe.framework; sourceTree = "<group>"; };
+		CA755B511C2AE8CF00101531 /* imgPayNow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgPayNow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA755B021C2AE4E800101531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA755B4E1C2AE7C100101531 /* Stripe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA755B1B1C2AE4E800101531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA755B261C2AE4E800101531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA755AFC1C2AE4E800101531 = {
+			isa = PBXGroup;
+			children = (
+				CA755B4D1C2AE7C100101531 /* Stripe.framework */,
+				CA755B071C2AE4E800101531 /* StripePaymentThroughCard */,
+				CA755B211C2AE4E800101531 /* StripePaymentThroughCardTests */,
+				CA755B2C1C2AE4E800101531 /* StripePaymentThroughCardUITests */,
+				CA755B061C2AE4E800101531 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA755B061C2AE4E800101531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA755B051C2AE4E800101531 /* StripePaymentThroughCard.app */,
+				CA755B1E1C2AE4E800101531 /* StripePaymentThroughCardTests.xctest */,
+				CA755B291C2AE4E800101531 /* StripePaymentThroughCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA755B071C2AE4E800101531 /* StripePaymentThroughCard */ = {
+			isa = PBXGroup;
+			children = (
+				CA755B3B1C2AE57F00101531 /* AppDelegate */,
+				CA755B111C2AE4E800101531 /* Main.storyboard */,
+				CA755B401C2AE57F00101531 /* Views */,
+				CA755B141C2AE4E800101531 /* Assets.xcassets */,
+				CA755B4B1C2AE5D100101531 /* Utility */,
+				CA755B3E1C2AE57F00101531 /* Resources */,
+				CA755B161C2AE4E800101531 /* LaunchScreen.storyboard */,
+				CA755B3F1C2AE57F00101531 /* ThirdParty */,
+				CA755B191C2AE4E800101531 /* Info.plist */,
+				CA755B081C2AE4E800101531 /* Supporting Files */,
+			);
+			path = StripePaymentThroughCard;
+			sourceTree = "<group>";
+		};
+		CA755B081C2AE4E800101531 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA755B091C2AE4E800101531 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA755B211C2AE4E800101531 /* StripePaymentThroughCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA755B221C2AE4E800101531 /* StripePaymentThroughCardTests.m */,
+				CA755B241C2AE4E800101531 /* Info.plist */,
+			);
+			path = StripePaymentThroughCardTests;
+			sourceTree = "<group>";
+		};
+		CA755B2C1C2AE4E800101531 /* StripePaymentThroughCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA755B2D1C2AE4E800101531 /* StripePaymentThroughCardUITests.m */,
+				CA755B2F1C2AE4E800101531 /* Info.plist */,
+			);
+			path = StripePaymentThroughCardUITests;
+			sourceTree = "<group>";
+		};
+		CA755B3B1C2AE57F00101531 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CA755B3C1C2AE57F00101531 /* AppDelegate.h */,
+				CA755B3D1C2AE57F00101531 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CA755B3E1C2AE57F00101531 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA755B511C2AE8CF00101531 /* imgPayNow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA755B3F1C2AE57F00101531 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				CA755B461C2AE5AB00101531 /* PaymentViewController.h */,
+				CA755B471C2AE5AB00101531 /* PaymentViewController.m */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		CA755B401C2AE57F00101531 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA755B411C2AE57F00101531 /* ViewController */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA755B411C2AE57F00101531 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CA755B421C2AE57F00101531 /* ViewController.h */,
+				CA755B431C2AE57F00101531 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CA755B4B1C2AE5D100101531 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CA755B4C1C2AE61A00101531 /* Constant.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA755B041C2AE4E800101531 /* StripePaymentThroughCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA755B321C2AE4E800101531 /* Build configuration list for PBXNativeTarget "StripePaymentThroughCard" */;
+			buildPhases = (
+				CA755B011C2AE4E800101531 /* Sources */,
+				CA755B021C2AE4E800101531 /* Frameworks */,
+				CA755B031C2AE4E800101531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StripePaymentThroughCard;
+			productName = StripePaymentThroughCard;
+			productReference = CA755B051C2AE4E800101531 /* StripePaymentThroughCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA755B1D1C2AE4E800101531 /* StripePaymentThroughCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA755B351C2AE4E800101531 /* Build configuration list for PBXNativeTarget "StripePaymentThroughCardTests" */;
+			buildPhases = (
+				CA755B1A1C2AE4E800101531 /* Sources */,
+				CA755B1B1C2AE4E800101531 /* Frameworks */,
+				CA755B1C1C2AE4E800101531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA755B201C2AE4E800101531 /* PBXTargetDependency */,
+			);
+			name = StripePaymentThroughCardTests;
+			productName = StripePaymentThroughCardTests;
+			productReference = CA755B1E1C2AE4E800101531 /* StripePaymentThroughCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA755B281C2AE4E800101531 /* StripePaymentThroughCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA755B381C2AE4E800101531 /* Build configuration list for PBXNativeTarget "StripePaymentThroughCardUITests" */;
+			buildPhases = (
+				CA755B251C2AE4E800101531 /* Sources */,
+				CA755B261C2AE4E800101531 /* Frameworks */,
+				CA755B271C2AE4E800101531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA755B2B1C2AE4E800101531 /* PBXTargetDependency */,
+			);
+			name = StripePaymentThroughCardUITests;
+			productName = StripePaymentThroughCardUITests;
+			productReference = CA755B291C2AE4E800101531 /* StripePaymentThroughCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA755AFD1C2AE4E800101531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = TheiHartBit;
+				TargetAttributes = {
+					CA755B041C2AE4E800101531 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CA755B1D1C2AE4E800101531 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CA755B041C2AE4E800101531;
+					};
+					CA755B281C2AE4E800101531 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CA755B041C2AE4E800101531;
+					};
+				};
+			};
+			buildConfigurationList = CA755B001C2AE4E800101531 /* Build configuration list for PBXProject "StripePaymentThroughCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA755AFC1C2AE4E800101531;
+			productRefGroup = CA755B061C2AE4E800101531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA755B041C2AE4E800101531 /* StripePaymentThroughCard */,
+				CA755B1D1C2AE4E800101531 /* StripePaymentThroughCardTests */,
+				CA755B281C2AE4E800101531 /* StripePaymentThroughCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA755B031C2AE4E800101531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA755B181C2AE4E800101531 /* LaunchScreen.storyboard in Resources */,
+				CA755B151C2AE4E800101531 /* Assets.xcassets in Resources */,
+				CA755B131C2AE4E800101531 /* Main.storyboard in Resources */,
+				CA755B521C2AE8CF00101531 /* imgPayNow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA755B1C1C2AE4E800101531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA755B271C2AE4E800101531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA755B011C2AE4E800101531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA755B451C2AE57F00101531 /* ViewController.m in Sources */,
+				CA755B441C2AE57F00101531 /* AppDelegate.m in Sources */,
+				CA755B0A1C2AE4E800101531 /* main.m in Sources */,
+				CA755B481C2AE5AB00101531 /* PaymentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA755B1A1C2AE4E800101531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA755B231C2AE4E800101531 /* StripePaymentThroughCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA755B251C2AE4E800101531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA755B2E1C2AE4E800101531 /* StripePaymentThroughCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA755B201C2AE4E800101531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA755B041C2AE4E800101531 /* StripePaymentThroughCard */;
+			targetProxy = CA755B1F1C2AE4E800101531 /* PBXContainerItemProxy */;
+		};
+		CA755B2B1C2AE4E800101531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA755B041C2AE4E800101531 /* StripePaymentThroughCard */;
+			targetProxy = CA755B2A1C2AE4E800101531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA755B111C2AE4E800101531 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA755B121C2AE4E800101531 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA755B161C2AE4E800101531 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA755B171C2AE4E800101531 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA755B301C2AE4E800101531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA755B311C2AE4E800101531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA755B331C2AE4E800101531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = StripePaymentThroughCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iHart.StripePaymentThroughCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA755B341C2AE4E800101531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = StripePaymentThroughCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iHart.StripePaymentThroughCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA755B361C2AE4E800101531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StripePaymentThroughCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iHart.StripePaymentThroughCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StripePaymentThroughCard.app/StripePaymentThroughCard";
+			};
+			name = Debug;
+		};
+		CA755B371C2AE4E800101531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StripePaymentThroughCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iHart.StripePaymentThroughCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StripePaymentThroughCard.app/StripePaymentThroughCard";
+			};
+			name = Release;
+		};
+		CA755B391C2AE4E800101531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StripePaymentThroughCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iHart.StripePaymentThroughCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StripePaymentThroughCard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CA755B3A1C2AE4E800101531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StripePaymentThroughCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iHart.StripePaymentThroughCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StripePaymentThroughCard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA755B001C2AE4E800101531 /* Build configuration list for PBXProject "StripePaymentThroughCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA755B301C2AE4E800101531 /* Debug */,
+				CA755B311C2AE4E800101531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA755B321C2AE4E800101531 /* Build configuration list for PBXNativeTarget "StripePaymentThroughCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA755B331C2AE4E800101531 /* Debug */,
+				CA755B341C2AE4E800101531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA755B351C2AE4E800101531 /* Build configuration list for PBXNativeTarget "StripePaymentThroughCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA755B361C2AE4E800101531 /* Debug */,
+				CA755B371C2AE4E800101531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA755B381C2AE4E800101531 /* Build configuration list for PBXNativeTarget "StripePaymentThroughCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA755B391C2AE4E800101531 /* Debug */,
+				CA755B3A1C2AE4E800101531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA755AFD1C2AE4E800101531 /* Project object */;
+}
